@@ -4,9 +4,9 @@ import {Stack, Text} from "@chakra-ui/react";
 
 import {Question} from "../types";
 
-interface Props {
+type Props = {
   question: Question;
-}
+};
 
 const QuestionCard: FC<Props> = ({question}) => {
   return (
